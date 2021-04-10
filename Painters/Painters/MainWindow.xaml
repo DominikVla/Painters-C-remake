@@ -1,0 +1,53 @@
+﻿<Window x:Class="Painters.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Painters"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="1"/>
+                <GradientStop Color="#FFC985F0"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Shipley Painters" HorizontalAlignment="Left" Height="103" Margin="315,10,0,0" VerticalAlignment="Top" Width="160" FontSize="22"/>
+        <Label x:Name="clientName" Content="Name:" HorizontalAlignment="Left" Height="33" Margin="27,62,0,0" VerticalAlignment="Top" Width="137" FontSize="17"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="23" Margin="91,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Background="#FFA05CDD" TextChanged="txtName_TextChanged"/>
+        <Label x:Name="clientEmail" Content="Email" HorizontalAlignment="Left" Height="50" Margin="27,113,0,0" VerticalAlignment="Top" Width="85" FontSize="17"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" Margin="91,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Background="#FFA05CDD"/>
+        <Label Content="Height:" HorizontalAlignment="Left" Height="33" Margin="458,62,0,0" VerticalAlignment="Top" Width="132" FontSize="17"/>
+        <TextBox x:Name="txtHeight" HorizontalAlignment="Left" Height="23" Margin="532,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Background="#FFA05CDD"/>
+        <Label Content="Length Wall 1:" HorizontalAlignment="Left" Height="36" Margin="400,113,0,0" VerticalAlignment="Top" Width="132" FontSize="17" RenderTransformOrigin="0.106,0.25"/>
+        <Label Content="Length Wall 1:" HorizontalAlignment="Left" Height="36" Margin="400,149,0,0" VerticalAlignment="Top" Width="132" FontSize="17"/>
+        <Label Content="Length Wall 1:" HorizontalAlignment="Left" Height="36" Margin="400,190,0,0" VerticalAlignment="Top" Width="132" FontSize="17"/>
+        <Label Content="Length Wall 1:" HorizontalAlignment="Left" Height="36" Margin="400,232,0,0" VerticalAlignment="Top" Width="132" FontSize="17" Background="#00000000"/>
+        <TextBox x:Name="txtWall1" HorizontalAlignment="Left" Height="23" Margin="532,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Background="#FFA05CDD"/>
+        <TextBox x:Name="txtWall2" HorizontalAlignment="Left" Height="23" Margin="532,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Background="#FFA05CDD"/>
+        <TextBox x:Name="txtWall3" HorizontalAlignment="Left" Height="23" Margin="532,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Background="#FFA05CDD"/>
+        <TextBox x:Name="txtWall4" HorizontalAlignment="Left" Height="23" Margin="532,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Background="#FFA05CDD"/>
+        <RadioButton x:Name="Luxury" Content="Luxury" HorizontalAlignment="Left" Height="23" Margin="28,214,0,0" VerticalAlignment="Top" Width="94" Background="#FFA05CDD"/>
+        <Label x:Name="clientEmail_Copy" Content="Paint type:" HorizontalAlignment="Left" Height="50" Margin="27,176,0,0" VerticalAlignment="Top" Width="95" FontSize="17"/>
+        <RadioButton x:Name="Economy" Content="Economy" HorizontalAlignment="Left" Height="23" Margin="191,214,0,0" VerticalAlignment="Top" Width="94" Background="#FFA05CDD"/>
+        <RadioButton x:Name="Standard" Content="Standard" HorizontalAlignment="Left" Height="23" Margin="107,214,0,0" VerticalAlignment="Top" Width="94" IsChecked="True" Background="#FFA05CDD"/>
+        <CheckBox x:Name="Undercoat" Content="Undercoat" HorizontalAlignment="Left" Height="22" Margin="107,241,0,0" VerticalAlignment="Top" Width="84" Checked="CheckBox_Checked" Background="#FFA05CDD"/>
+        <Label x:Name="ISBN" Content="ISBN Book No.:" HorizontalAlignment="Left" Height="33" Margin="27,268,0,0" VerticalAlignment="Top" Width="137" FontSize="17"/>
+        <TextBox x:Name="txtISBN" HorizontalAlignment="Left" Height="23" Margin="164,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Background="#FFA05CDD"/>
+        <Label x:Name="ISBN_Copy" Content="P. No.:" HorizontalAlignment="Left" Height="33" Margin="315,268,0,0" VerticalAlignment="Top" Width="137" FontSize="17"/>
+        <TextBox x:Name="txtPage" HorizontalAlignment="Left" Height="23" Margin="376,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="37" Background="#FFA05CDD" RenderTransformOrigin="0.5,0.5" TextChanged="txtWall4_Copy1_TextChanged">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.073"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Button x:Name="check" Content="Check Info" HorizontalAlignment="Left" Height="35" Margin="91,343,0,0" VerticalAlignment="Top" Width="150" Background="#FF71419C" Click="check_Click"/>
+        <Button x:Name="Calc" Content="Calculate" HorizontalAlignment="Left" Height="35" Margin="272,343,0,0" VerticalAlignment="Top" Width="150" Background="#FF8E52C3"/>
+
+    </Grid>
+</Window>
