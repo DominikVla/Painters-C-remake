@@ -1,0 +1,15 @@
+C:\Users\111117\source\repos\Painters\Painters\bin\Debug\Painters.exe.config
+C:\Users\111117\source\repos\Painters\Painters\bin\Debug\Painters.exe
+C:\Users\111117\source\repos\Painters\Painters\bin\Debug\Painters.pdb
+C:\Users\111117\source\repos\Painters\Painters\obj\Debug\Painters.csprojAssemblyReference.cache
+C:\Users\111117\source\repos\Painters\Painters\obj\Debug\MainWindow.g.cs
+C:\Users\111117\source\repos\Painters\Painters\obj\Debug\App.g.cs
+C:\Users\111117\source\repos\Painters\Painters\obj\Debug\Painters_MarkupCompile.cache
+C:\Users\111117\source\repos\Painters\Painters\obj\Debug\Painters_MarkupCompile.lref
+C:\Users\111117\source\repos\Painters\Painters\obj\Debug\MainWindow.baml
+C:\Users\111117\source\repos\Painters\Painters\obj\Debug\Painters.g.resources
+C:\Users\111117\source\repos\Painters\Painters\obj\Debug\Painters.Properties.Resources.resources
+C:\Users\111117\source\repos\Painters\Painters\obj\Debug\Painters.csproj.GenerateResource.cache
+C:\Users\111117\source\repos\Painters\Painters\obj\Debug\Painters.csproj.CoreCompileInputs.cache
+C:\Users\111117\source\repos\Painters\Painters\obj\Debug\Painters.exe
+C:\Users\111117\source\repos\Painters\Painters\obj\Debug\Painters.pdb
